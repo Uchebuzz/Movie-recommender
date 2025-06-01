@@ -10,7 +10,7 @@ This is a **content-based movie recommender system** built using **Python**, **S
 - Recommend top 5 movies similar to a selected movie
 - Movie posters fetched via [TMDb API](https://www.themoviedb.org/documentation/api)
 - Clean and interactive UI with Streamlit
-- Lightweight and easy to deploy
+- Lightweight and easy to deploy.
 
 ---
 
@@ -19,6 +19,7 @@ This is a **content-based movie recommender system** built using **Python**, **S
 - Python 3.8+
 - Streamlit
 - Pandas
+- numpy
 - Scikit-learn
 - Requests
 - Pickle (for precomputed similarity & movie data)
@@ -107,12 +108,8 @@ streamlit run app.py
 * Include genre and rating filters
 * Add collaborative filtering model
 * Deploy on Streamlit Cloud or Render
+* Integreate AI to explain each movie and how it relates
 
----
-
-## 📜 License
-
-MIT License. Free to use and modify.
 
 ---
 
